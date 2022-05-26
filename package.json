@@ -1,0 +1,17 @@
+{
+  "name": "proyecto-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss -i ./tailwind.css -o ./public/css/main.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "sweetalert2": "^11.4.17"
+  }
+}
